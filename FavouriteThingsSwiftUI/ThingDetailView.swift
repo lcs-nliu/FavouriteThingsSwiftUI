@@ -7,28 +7,31 @@
 
 import SwiftUI
 
-struct HarryPotterview: View {
+
+
+struct ThingDetailView: View {
+    let thingToShow: Thing
     var body: some View {
         
         VStack {
-        Image ("harrypotter")
+            Image (thingToShow.imageName)
             .resizable()
             .padding(.horizontal)
             .scaledToFit()
         
-            Text("I really love reading and writing fantasy novels...")
+            Text(thingToShow.description)
                 .padding(.horizontal)
             
             Spacer ()
         }
-        .navigationTitle("Harry Potter")
+        .navigationTitle(thingToShow.title)
     }
 }
 
-struct HarryPotterview_Previews: PreviewProvider {
-    static var previews: some View {
-        NavigationView {
-        HarryPotterview()
-        }
-    }
-}
+//struct HarryPotterview_Previews: PreviewProvider {
+//    static var previews: some View {
+//        NavigationView {
+//        HarryPotterview()
+//        }
+//    }
+//}

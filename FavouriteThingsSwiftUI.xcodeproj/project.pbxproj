@@ -11,9 +11,9 @@
 		4612993225A8EA0E002FAE34 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4612993125A8EA0E002FAE34 /* ContentView.swift */; };
 		4612993425A8EA14002FAE34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4612993325A8EA14002FAE34 /* Assets.xcassets */; };
 		4612993725A8EA14002FAE34 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4612993625A8EA14002FAE34 /* Preview Assets.xcassets */; };
-		4658541D25AB76AF00442A7B /* HarryPotterview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4658541C25AB76AF00442A7B /* HarryPotterview.swift */; };
-		4658542025AB774200442A7B /* Hotpotview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4658541F25AB774200442A7B /* Hotpotview.swift */; };
-		4658542325AB77BD00442A7B /* Chinchilla.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4658542225AB77BD00442A7B /* Chinchilla.swift */; };
+		4658541D25AB76AF00442A7B /* ThingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4658541C25AB76AF00442A7B /* ThingDetailView.swift */; };
+		4658542625ACDEA700442A7B /* Thing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4658542525ACDEA700442A7B /* Thing.swift */; };
+		4658542925ACE06100442A7B /* Things.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4658542825ACE06100442A7B /* Things.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,9 +23,9 @@
 		4612993325A8EA14002FAE34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4612993625A8EA14002FAE34 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4612993825A8EA14002FAE34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4658541C25AB76AF00442A7B /* HarryPotterview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarryPotterview.swift; sourceTree = "<group>"; };
-		4658541F25AB774200442A7B /* Hotpotview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hotpotview.swift; sourceTree = "<group>"; };
-		4658542225AB77BD00442A7B /* Chinchilla.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chinchilla.swift; sourceTree = "<group>"; };
+		4658541C25AB76AF00442A7B /* ThingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThingDetailView.swift; sourceTree = "<group>"; };
+		4658542525ACDEA700442A7B /* Thing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thing.swift; sourceTree = "<group>"; };
+		4658542825ACE06100442A7B /* Things.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Things.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +63,9 @@
 				4612993325A8EA14002FAE34 /* Assets.xcassets */,
 				4612993825A8EA14002FAE34 /* Info.plist */,
 				4612993525A8EA14002FAE34 /* Preview Content */,
-				4658541C25AB76AF00442A7B /* HarryPotterview.swift */,
-				4658541F25AB774200442A7B /* Hotpotview.swift */,
-				4658542225AB77BD00442A7B /* Chinchilla.swift */,
+				4658541C25AB76AF00442A7B /* ThingDetailView.swift */,
+				4658542525ACDEA700442A7B /* Thing.swift */,
+				4658542825ACE06100442A7B /* Things.swift */,
 			);
 			path = FavouriteThingsSwiftUI;
 			sourceTree = "<group>";
@@ -147,11 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4658542025AB774200442A7B /* Hotpotview.swift in Sources */,
-				4658542325AB77BD00442A7B /* Chinchilla.swift in Sources */,
 				4612993225A8EA0E002FAE34 /* ContentView.swift in Sources */,
 				4612993025A8EA0E002FAE34 /* FavouriteThingsSwiftUIApp.swift in Sources */,
-				4658541D25AB76AF00442A7B /* HarryPotterview.swift in Sources */,
+				4658542625ACDEA700442A7B /* Thing.swift in Sources */,
+				4658542925ACE06100442A7B /* Things.swift in Sources */,
+				4658541D25AB76AF00442A7B /* ThingDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
