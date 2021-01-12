@@ -10,7 +10,7 @@ import Foundation
 // A class does not automatically generate an initalizer (but a struct does)
 // We can do this manually by choosing Editor > Refactor > Generate Memberwise Initalizer
 // ...just be sure your cursor is placed inside the name of the class
-class Things {
+struct Things {
     
     // Initializer
     init() {
