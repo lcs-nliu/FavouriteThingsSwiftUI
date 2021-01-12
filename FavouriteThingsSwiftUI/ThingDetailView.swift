@@ -22,7 +22,15 @@ struct ThingDetailView: View {
             Text(thingToShow.description)
                 .padding(.horizontal)
             
+            // If there are any related things, show them
+            if thingToShow.relatedThings.count > 0 {
+                List(thingToShow.relatedThings) { thing in
+                    NavigationLink(thing.title, destination: ThingDetailView(thingToShow: thing))
+            }
+            
             Spacer ()
+        }
+           
         }
         .navigationTitle(thingToShow.title)
     }
@@ -35,3 +43,4 @@ struct ThingDetailView: View {
 //        }
 //    }
 //}
+

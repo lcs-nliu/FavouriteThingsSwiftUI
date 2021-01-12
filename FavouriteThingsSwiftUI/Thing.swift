@@ -15,4 +15,8 @@ struct Thing: Identifiable {
     let imageName: String
     let description: String
     let id = UUID()
+    
+    // A sublist of related favourite things
+    // This is an example of Recursion
+    var relatedThings: [Thing] = [] // empty list by default
 }
